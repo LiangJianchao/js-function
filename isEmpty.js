@@ -1,5 +1,5 @@
 //判断字符串是否为空
-isEmpty: function(obj) {
+function isEmpty(obj) {
     if (null != obj) {
       if ('undefined' == obj) {
         return true
@@ -17,4 +17,4 @@ isEmpty: function(obj) {
     } else {
       return true
     }
-  },
+  }
